@@ -1,38 +1,350 @@
-.App {
+.navi{
+    font-size: 125%;
+}
+.navii{
+    font-size: 150%;
+    font-weight: bolder;
+}
+.navii:hover{
+    font-size: 170%;
+}
+.naviii{
+    font-size: 300%;
+    font-weight: bolder;
+}
+.parallax {
+    background-image: url('./assets/images.png');
+    min-height: 40vw; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax1{
+    background-image: url(./assets/Capture.PNG);
+    min-height: 30vw; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax2{
+    background-image: url(./assets/images.png);
+    height: 40vw; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }  
+  .info{
+      height: 40vw;
+      background-color: aqua;
+  }
+  .start{
+    height: 40vw;
+  }
+
+.contain{
+    width: 20vw;
+}
+.arrow {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-container{
+    padding-top: 8vw;
+    position: fixed;
+    display:block;
+    left: 0;
+    right: 0;
+    bottom: 2;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+#overview {
+    position: relative;
+    background-color: #fff;
   }
+.intro1 {
+  font-family: 'Monoton', cursive;
+  text-align: center;
+  color: rgb(61, 57, 57);
+  font-size: 4vw;
+  margin-right: 55vw;
+  padding-left: 10vw;
+  font-weight: bolder;
+  /* padding-top: 10%; */
+  cursor: grab;
+  display:table-cell;
+  width:30%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.create{
+    font-size: 1vw;
+    font-weight: lighter;
+    text-decoration: none;
+}
+.intro2{
+    display:table-cell;
+    width:40%;
+    padding-left: 15vw;
+}
+.picture{
+    height: 20vw;
 }
 
-.App-link {
-  color: #61dafb;
+  
+.arow{
+    color: rgb(49, 46, 46);
+    margin-top: 5%;
+    margin-bottom: 2%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.left-box{
+    float:left;  
+    width:60%; 
+}
+.right-box{
+    float:right; 
+    width:40%; 
+    height: 50vw;
+}
+.pic1{
+    height: 27vw;
+    border-radius: 50%;
+    margin-top: 2vw;
+}
+.aboutinfo{
+    margin-top: 8vw;
+    margin-left: 20%;
+    margin-right: 18%;
+    font-size: 1.2vw;
+    font-weight: bolder;
+}
+.skills{
+    background-color: rgb(240, 240, 240);
+    height: 45vw;
+}
+.aligning{
+    display:table;
+    width:100%;
+    padding-left: 22%;
+    padding-right: 10%;
+
+}
+.leftbox    {
+    display:table-cell;
+    width:50%;
+    height: 12vw;
+    padding-right: 15%;
+    background-color: rgb(240, 240, 240);
+    border: 0;
+}
+
+.rightbox  {
+    display:table-cell;
+    width:50%;
+    height: 12vw;
+    padding-right: 15%;
+    background-color: rgb(240, 240, 240);
+    border: 0;
+
+}
+.expertice{
+    font-size: 2.7vw;
+    font-weight: bold;
+    margin-left: 40%;
+    padding-top: 3vw;
+    padding-bottom: 2%;
+    color: rgb(10, 149, 142);
+    text-align: center;
+}
+span1{
+    color: #000;
+}
+span2{
+    color: rgb(10, 149, 142);
+    font-weight: bolder;
+}
+span2{
+    color: rgb(10, 149, 142);
+}
+.lang{
+    background-color: rgb(50, 114, 173);
+    border-radius: 35%;
+    padding: 0.4vw;
+    font-weight: bold;
+    font-size: 0.7vw;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+.title{
+    font-size: 2vw;
+    color: black;
+    font-weight: bold;
+}
+.about{
+    font-size: 4vw;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.thirdone{
+    height: 30vw;
+    text-align: center;
+    font-size: 3vw;
+    padding-top: 2%;
   }
-  to {
-    transform: rotate(360deg);
-  }
+  .leftbox3 { 
+    float:left;  
+    width:40%; 
+    margin-left: 3%;
+    margin-top: 1%;
+    font-size: 3vw;
+    text-align: right;
+    font-weight: normal;
+  } 
+span8{
+      color: darkseagreen;
+      font-weight: bolder;
 }
+span7{
+    color: rgba(44, 0, 163, 0.623);
+    font-weight: bolder;
+}
+  .rightbox3{ 
+    float:right; 
+    width:30%; 
+    font-size: 35%;
+    text-align: left;
+    margin-right: 12%;
+    margin-top: 1%;
+  } 
+.contactid{
+    color: rgb(255, 255, 255);
+    font-size: 1vw;
+    font-weight: bold;
+}
+.projectmain{
+    display: table;
+}
+.project{
+    height: 1vw;
+    background-color: rgb(44, 185, 178);
+    width: 50vw;
+    text-align: center;
+    /* border:150px rgb(44, 185, 178) solid; */
+    display: table-cell;
+    
+}
+.project1{
+    display: table-cell;
+    width: 50vw;
+}
+.maincontent{
+    font-size: 3vw;
+    font-weight: normal;
+    margin-top: 13vw;
+    text-align: center;
+}
+.secondarycontent{
+    font-size: 1vw;
+    text-align: center;
+}
+.pict{
+    height: 25vw;
+    margin-bottom: 3vw;
+}
+.check{
+    font-size: 350%;
+    font-weight: bold;
+}
+
+
+.hovicon {
+    display: inline-block;
+    font-size: 2vw;
+    padding-top: 1.5vw;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    z-index: 1;
+    color: rgb(0, 0, 0);
+}
+
+.hovicon.auto-width {
+    width: auto;
+    height: auto;
+    padding: 1px;
+}
+.hovicon:after {
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    content:'';
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+/* Effect 4 */
+ .hovicon.effect-4 {
+    width: 7vw;
+    height: 7vw;
+    box-shadow: 0 0 0 4px rgb(44, 185, 178);
+}
+
+.hovicon.effect-4.sub-a {
+    -webkit-transition: box-shadow 0.2s;
+    -moz-transition: box-shadow 0.2s;
+    transition: box-shadow 0.2s;
+}
+.hovicon.effect-4:after {
+    top: -4px;
+    left: -4px;
+    padding: 0;
+    z-index: 10;
+    border: 4px dashed rgb(44, 185, 178);
+
+}
+
+
+/* Effect 4b */
+ .hovicon.effect-4.sub-b:hover {
+    -webkit-transition: box-shadow 0.2s;
+    -moz-transition: box-shadow 0.2s;
+    transition: box-shadow 0.2s;
+    border: 4px dashed rgb(34, 41, 40);
+
+}
+.hovicon.effect-4.sub-b:hover:after {
+    -webkit-animation: spinAround 9s linear infinite;
+    -moz-animation: spinAround 9s linear infinite;
+    animation: spinAround 9s linear infinite;
+}
+@-webkit-keyframes spinAround {
+    from {
+        -webkit-transform: rotate(0deg)
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+@-moz-keyframes spinAround {
+    from {
+        -moz-transform: rotate(0deg)
+    }
+    to {
+        -moz-transform: rotate(360deg);
+    }
+}
+@keyframes spinAround {
+    from {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+

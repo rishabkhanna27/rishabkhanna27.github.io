@@ -1,0 +1,89 @@
+.heart{
+    color: red;
+  }
+section {
+  width: 100%;
+  display: inline-block;
+  background: #333;
+  height: 50vh;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.footer-distributed{
+	background: #666;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Open Sans', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:  lightseagreen;
+}
+
+.footer-distributed .footer-center{
+	width: 55%;
+}
+
+.foot{
+    background-color: #4d4d4e;
+    font-size: large;
+    font-weight: bold;
+}
+.foot a{
+    color:  lightseagreen;
+
+}
+.icon a{
+    color:  lightseagreen;
+
+}
+.logo{
+    padding-left: 2%;
+}
+.contact{
+    
+    font-weight: bolder;
+}
+.linkbtn{
+	color: rgb(17, 83, 80);
+
+}
+.contain{
+	margin-right: 70%;
+	font-size: 150%;
+}
+.linkbtn:hover{
+	color: rgb(17, 145, 138);
+}
+.mail{
+	color: lightseagreen;
+}
+.mail:hover{
+	color: rgb(17, 145, 138);
+	text-decoration: none;
+}
+.call{
+	color: white;
+}
