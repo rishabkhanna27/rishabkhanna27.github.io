@@ -36,14 +36,68 @@
     background-repeat: no-repeat;
     background-size: cover;
   }  
-  .info{
-      height: 40vw;
-      background-color: aqua;
-  }
-  .start{
+  .parallax3{
+    background-image: url(./assets/wo.png);
+    height: 25vw; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }  
+  .parallax4{
+    background-image: url(./assets/wor.png);
+    height: 25vw; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }  
+
+
+.game1{
+    padding: 9vw;
+    height: 44vw;
+    background-color: black;
+}
+.complete1{
+    padding: 9vw;
+    height: 44vw;
+    background-color: red;
+}
+.base1{
+    padding: 9vw;
+    height: 44vw;
+    background-color: rgb(0, 255, 0);
+}
+
+
+.start{
     height: 40vw;
   }
-
+.car{
+      padding-top: 5vw;
+  }
+.projectbutton1{
+    display: table-cell;
+    padding-left: 18vw;
+    width: 30vw;
+}
+.btn{
+    font-size: 1vw;
+    font-weight: bold;
+    padding: 1vw;
+    border-radius: 50%;
+    background-color: rgb(114, 78, 235);
+}
+.projectbutton2{
+    display: table-cell;
+    padding-left: 18vw;
+    width: 30vw;
+}.projectbutton3{
+    display: table-cell;
+    padding-left: 18vw;
+    width: 20vw;
+}
 .contain{
     width: 20vw;
 }
