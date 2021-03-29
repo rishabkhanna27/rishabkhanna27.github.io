@@ -59,9 +59,22 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+<<<<<<< HEAD
 }
 
 .heading1 {
+=======
+  }  
+  .parallax5{
+    background-image: url(./assets/wo.png);
+    height: 25vw; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }  
+.heading1{
+>>>>>>> 0d9fc819737392ef1f7c965f9d38c950982b87ef
     font-size: 3vw;
     font-weight: bolder;
     color: red;
@@ -106,7 +119,7 @@
     padding: 3vw;
     height: 44vw;
     background-color: rgb(255, 255, 255);
-    padding-left: 4.2vw;
+    padding-left: 2.2vw;
 }
 
 .game2 {

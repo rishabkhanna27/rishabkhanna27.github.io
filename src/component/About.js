@@ -15,7 +15,7 @@ export class About extends Component{
                 <div className="parallax">
                     <div className="text-container">
                     <div className="intro">
-                        <p className="intro1">Rishab Khanna<p className="create">I Create blah blah blah</p></p>
+                        <p className="intro1">Rishab Khanna<p className="create">I Create Some Awesome Projects</p></p>
                         
                         <div  className="intro2"><img className="picture" src={image} alt="imageing"></img></div>
                         </div>
