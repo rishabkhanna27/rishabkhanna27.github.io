@@ -32,8 +32,11 @@ export class Sign extends Component {
         else if(this.nameEl.current.value === meta.meta.dash[0].dash1)
         {
             bcrypt.compare(code, hash1).then((res) => {
-            if(res)
+                console.log(res,"2222222");
+            if(res){
+                console.log("1111111111111");
             this.props.history.push(`/wall/${meta.meta.key[0].chain}`);
+            }
             else
             alert("You are not autherised to go further")
             });
