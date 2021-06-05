@@ -5,12 +5,12 @@ export class Skills extends Component{
     render(){
         return(
             <div className="skills">
-            <div className="expertice">MY <span1>DEXTERITY</span1></div>
+            <div className="expertice">MY<span> DEXTERITY</span></div>
 
                 <div className="aligning">
                 <div className="leftbox">
                   
-                    <header className="title">UI <span2>TECHNOLOGIES</span2></header><br></br>
+                    <header className="title">UI <span>TECHNOLOGIES</span></header><br></br>
                     
                       <Button className="lang">HTML</Button>{' '}
                       <Button className="lang">CSS</Button>{' '}
@@ -22,7 +22,7 @@ export class Skills extends Component{
                 </div>
                 <div className="rightbox">
 
-                    <header className="title">SC<span2>RIPTING</span2></header><br></br>
+                    <header className="title">SC<span>RIPTING</span></header><br></br>
 
                       <Button className="lang">JAVA</Button>{' '}
                       <Button className="lang">JAVASCRIPT</Button>{' '}
@@ -33,7 +33,7 @@ export class Skills extends Component{
                 <div className="aligning">
                 <div className="leftbox">
                
-                    <header className="title">DA<span2>TABASE</span2></header><br></br>
+                    <header className="title">DA<span>TABASE</span></header><br></br>
                   
                       <Button className="lang">My SQL</Button>{' '}
                       <Button className="lang">Oracle</Button>{' '}
@@ -41,7 +41,7 @@ export class Skills extends Component{
                 </div>
                 <div className="rightbox">
 
-                    <header className="title">CO<span2>NCEPTS</span2></header><br></br>
+                    <header className="title">CO<span>NCEPTS</span></header><br></br>
 
                       <Button className="lang">DATABASE MANAGEMENT</Button>{' '}
                       <Button className="lang">OPERATING SYSTEM</Button>{' '}

@@ -4,9 +4,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Skills } from './Skills';
 import { Project } from './Project';
 import { Contact } from './Contact';
-import { Footer } from './Footer'
+import { Footer } from './Footer';
 import image1 from '../assets/me.jpg';
-import image from '../assets/capture.svg'
+import image from '../assets/capture.svg';
 
 export class About extends Component{
     render(){
@@ -15,7 +15,7 @@ export class About extends Component{
                 <div className="parallax">
                     <div className="text-container">
                     <div className="intro">
-                        <p className="intro1">Rishab Khanna<p className="create">I Create Some Awesome Projects</p></p>
+                        <div className="intro1">Rishab Khanna<p className="create">I Create Some Awesome Projects</p></div>
                         
                         <div  className="intro2"><img className="picture" src={image} alt="imageing"></img></div>
                         </div>
@@ -26,10 +26,11 @@ export class About extends Component{
                 </div>
                 <div id="overview">
                 <div id="start" className="start">
-                <div className="about"><span2>ABOUT </span2>ME</div>
+                <div className="about"><span>ABOUT </span>ME</div>
                     <div className="right-box">
                     <img className="pic1" src={image1} alt="me"/>
                     </div>
+
                     <div className="left-box">
                     <div className="aboutinfo">
                         Voluptates modi dignissimos
@@ -47,6 +48,7 @@ export class About extends Component{
                 <div className="parallax1"></div>
                 <Contact/>
                 <Footer/>
+                
             </div>
             </div>
         );

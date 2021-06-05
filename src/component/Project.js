@@ -15,7 +15,7 @@ export class Project extends Component{
             </div>
             <div className="project1">
             <div className="maincontent">
-                My <span2>Project</span2> Work
+                My <span>Project</span> Work
             </div>
             <div className="secondarycontent">
                 Create To Learn blah blah<br></br>

@@ -44,7 +44,7 @@ export class ContactForm extends Component {
       <>
         <div>
           <Form onSubmit={this.handleSubmit.bind(this)}>
-            <FormGroup controlId="formBasicEmail">
+            <FormGroup controlid="formBasicEmail">
               <Label className="text-muted">Email address</Label>
               
               <Input
@@ -55,7 +55,7 @@ export class ContactForm extends Component {
                 onChange={this.handleChange.bind(this, 'email')}
                 placeholder="Enter email"
               />
-            </FormGroup><FormGroup controlId="formBasicName">
+            </FormGroup><FormGroup controlid="formBasicName">
               <Label className="text-muted">Name</Label>
               <Input
                 type="text"
@@ -65,7 +65,7 @@ export class ContactForm extends Component {
                 onChange={this.handleChange.bind(this, 'name')}
                 placeholder="Name"
               />
-            </FormGroup><FormGroup controlId="formBasicSubject">
+            </FormGroup><FormGroup controlid="formBasicSubject">
               <Label className="text-muted">Subject</Label>
               <Input
                 type="text"
@@ -75,7 +75,7 @@ export class ContactForm extends Component {
                 onChange={this.handleChange.bind(this, 'subject')}
                 placeholder="Subject"
               />
-            </FormGroup><FormGroup controlId="formBasicMessage">
+            </FormGroup><FormGroup controlid="formBasicMessage">
               <Label className="text-muted">Message</Label>
               <Input
                 type="textarea"

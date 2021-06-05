@@ -7,7 +7,7 @@ export class NavBar extends Component{
         return(
             
             <div>                
-            <Navbar scrolling dark expand="md" fixed="top" className="navi">
+            <Navbar expand="md" fixed="top" className="navi">
             <Navbar.Brand className="naviii brand text-dark">RK
             </Navbar.Brand>
             <Navbar.Collapse id="basic-navbar-nav">

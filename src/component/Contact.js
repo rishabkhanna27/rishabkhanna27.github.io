@@ -11,9 +11,9 @@ export class Contact extends Component{
                         Always
                         Open
                         for<br></br>
-                        <span7>New </span7>
+                        <span>New </span>
                         And <br></br>
-                        <span8> Intresting </span8> <br></br>
+                        <span> Intresting </span> <br></br>
                         Ideas. 
                        </div>
                        <div className="rightbox3">
