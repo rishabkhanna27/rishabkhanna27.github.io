@@ -1,0 +1,36 @@
+{
+
+    "schema":{
+                "Lost":   
+                    [
+                        {"age":"1","name":"abc"},
+                        {"age":"2","name":"cba"}
+                    ],
+                    "Got":   
+                    [
+                        {"age":"10","name":"xyz"},
+                        {"age":"20","name":"cba"}
+                    ],
+                    "Bot":   
+                    [
+                        {"age":"5","name":"abc"},
+                        {"age":"70","name":"xyz"}
+                    ]
+            },
+    "meta":{    
+                "hash":
+                [
+                    {"hash":"$2y$10$lg66THOM4tDdoEmESss.CuFxuLDmOMGfdkINpH7x05RvkAyX8LDgW","hash1":"$2y$10$5vckbkS2fDU54qCWROECXeDKP/dGrHxP8c39cI9kexE78kmbd1tY6"}
+                ],
+                "dash":
+                [
+                    {"dash":"rishabkhanna27@gmail.com","dash1":"world@gmail.com"}
+                ],
+                "key":
+                [
+                    {"chain":"$2y$12$LdslKHdHn5ViSFiCHiMRSuRQlGl2mWfu6l0LUlqtX/4JIqwjVLglS","chained":"$2y$12$BCBoiNlM.0qkSf3aYeax5.1zwNBDXDN8lo.evA2XYNs2txrD6wgmu"}
+                ]
+
+            }
+
+}
