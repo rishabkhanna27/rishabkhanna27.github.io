@@ -1,66 +1,67 @@
-.navi{
+.navi {
     font-size: 125%;
 }
-.navii{
+
+.navii {
     font-size: 150%;
     font-weight: bolder;
 }
-.navii:hover{
+
+.navii:hover {
     font-size: 170%;
 }
-.naviii{
+
+.naviii {
     font-size: 300%;
     font-weight: bolder;
 }
+
 .parallax {
     background-image: url('./assets/images.png');
-    min-height: 40vw; 
+    min-height: 40vw;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
-  .parallax1{
+}
+
+.parallax1 {
     background-image: url(./assets/Capture.PNG);
-    min-height: 30vw; 
+    min-height: 30vw;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
-  .parallax2{
+}
+
+.parallax2 {
     background-image: url(./assets/images.png);
-    height: 40vw; 
+    height: 40vw;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }  
-  .parallax3{
+}
+
+.parallax3 {
     background-image: url(./assets/wo.png);
-    height: 25vw; 
+    height: 25vw;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }  
-  .parallax4{
+}
+
+.parallax4 {
     background-image: url(./assets/wor.png);
-    height: 25vw; 
+    height: 25vw;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }  
-  .parallax5{
-    background-image: url(./assets/wo.png);
-    height: 25vw; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }  
-.heading1{
+}
+
+.heading1 {
     font-size: 3vw;
     font-weight: bolder;
     color: red;
@@ -68,7 +69,8 @@
     padding-right: 10vw;
     margin-bottom: 3vw;
 }
-.heading2{
+
+.heading2 {
     margin-bottom: 3vw;
     font-size: 3vw;
     font-weight: bolder;
@@ -76,7 +78,8 @@
     text-align: center;
     padding-right: 14vw;
 }
-.heading3{
+
+.heading3 {
     margin-bottom: 3vw;
     font-size: 3vw;
     font-weight: bolder;
@@ -84,189 +87,222 @@
     text-align: center;
     padding-right: 3vw;
 }
-.game1{
+
+.game1 {
     padding: 5vw;
     height: 44vw;
     background-color: rgb(255, 255, 255);
     padding-left: 16vw;
 }
-.complete1{
+
+.complete1 {
     padding: 5vw;
     height: 90vw;
     background-color: rgb(255, 255, 255);
     padding-left: 17vw;
 }
-.base1{
+
+.base1 {
     padding: 3vw;
     height: 44vw;
     background-color: rgb(255, 255, 255);
     padding-left: 2.2vw;
 }
-.game2{
+
+.game2 {
     display: table-cell;
     width: 25vw;
 }
-.game3{
+
+.game3 {
     display: table-cell;
     width: 25vw;
 }
-.game4{
+
+.game4 {
     display: table-cell;
     width: 25vw;
 }
-.base2{
+
+.base2 {
     display: table-cell;
     width: 15vw;
 }
-.base3{
+
+.base3 {
     display: table-cell;
     width: 15vw;
 }
-.base4{
+
+.base4 {
     display: table-cell;
     width: 15vw;
 }
-.base5{
+
+.base5 {
     display: table-cell;
     width: 15vw;
 }
-.base6{
+
+.base6 {
     display: table-cell;
     width: 15vw;
 }
-.base7{
+
+.base7 {
     display: table-cell;
     width: 15vw;
 }
-.start{
+
+.start {
     height: 40vw;
 }
-.car{
-      padding-top: 5vw;
+
+.car {
+    padding-top: 5vw;
 }
-.projectbutton1{
+
+.projectbutton1 {
     display: table-cell;
     padding-left: 18vw;
     width: 30vw;
 }
-.btnn{
+
+.btnn {
     font-size: 1vw;
     font-weight: bold;
     padding: 1vw;
     border-radius: 50%;
     background-color: rgb(114, 78, 235);
 }
-.projectbutton2{
+
+.projectbutton2 {
     display: table-cell;
     padding-left: 18vw;
     width: 30vw;
 }
-.projectbutton3{
+
+.projectbutton3 {
     display: table-cell;
     padding-left: 18vw;
     width: 20vw;
 }
-.contain{
+
+.contain {
     width: 20vw;
 }
+
 .arrow {
-  text-align: center;
+    text-align: center;
 }
-.text-container{
+
+.text-container {
     padding-top: 8vw;
     position: fixed;
-    display:block;
+    display: block;
     left: 0;
     right: 0;
     bottom: 2;
 }
+
 #overview {
     position: relative;
     background-color: #fff;
-  }
-.intro1 {
-  font-family: 'Monoton', cursive;
-  text-align: center;
-  color: rgb(61, 57, 57);
-  font-size: 4vw;
-  margin-right: 55vw;
-  padding-left: 10vw;
-  font-weight: bolder;
-  cursor: grab;
-  display:table-cell;
-  width:30%;
 }
 
-.create{
+.intro1 {
+    font-family: 'Monoton', cursive;
+    text-align: center;
+    color: rgb(61, 57, 57);
+    font-size: 4vw;
+    margin-right: 55vw;
+    padding-left: 10vw;
+    font-weight: bolder;
+    cursor: grab;
+    display: table-cell;
+    width: 30%;
+}
+
+.create {
     font-size: 1vw;
     font-weight: lighter;
     text-decoration: none;
 }
-.intro2{
-    display:table-cell;
-    width:40%;
+
+.intro2 {
+    display: table-cell;
+    width: 40%;
     padding-left: 15vw;
 }
-.picture{
+
+.picture {
     height: 20vw;
 }
-.arow{
+
+.arow {
     color: rgb(49, 46, 46);
     margin-top: 5%;
     margin-bottom: 2%;
 }
 
-.left-box{
-    float:left;  
-    width:60%; 
+.left-box {
+    float: left;
+    width: 60%;
 }
-.right-box{
-    float:right; 
-    width:40%; 
+
+.right-box {
+    float: right;
+    width: 40%;
     height: 50vw;
 }
-.pic1{
+
+.pic1 {
     height: 27vw;
     border-radius: 50%;
     margin-top: 2vw;
 }
-.aboutinfo{
+
+.aboutinfo {
     margin-top: 8vw;
     margin-left: 20%;
     margin-right: 18%;
     font-size: 1.2vw;
     font-weight: bolder;
 }
-.skills{
+
+.skills {
     background-color: rgb(240, 240, 240);
     height: 45vw;
 }
-.aligning{
-    display:table;
-    width:100%;
+
+.aligning {
+    display: table;
+    width: 100%;
     padding-left: 22%;
     padding-right: 10%;
 
 }
-.leftbox    {
-    display:table-cell;
-    width:50%;
+
+.leftbox {
+    display: table-cell;
+    width: 50%;
     height: 12vw;
     padding-right: 15%;
     background-color: rgb(240, 240, 240);
     border: 0;
 }
 
-.rightbox  {
-    display:table-cell;
-    width:50%;
+.rightbox {
+    display: table-cell;
+    width: 50%;
     height: 12vw;
     padding-right: 15%;
     background-color: rgb(240, 240, 240);
     border: 0;
 
 }
-.expertice{
+
+.expertice {
     font-size: 2.7vw;
     font-weight: bold;
     margin-left: 37%;
@@ -288,26 +324,29 @@ span{
     margin-left: 2%;
     margin-bottom: 2%;
 }
-.title{
+
+.title {
     font-size: 2vw;
     color: black;
     font-weight: bold;
 }
-.about{
+
+.about {
     font-size: 4vw;
     font-weight: bolder;
     text-align: center;
 }
 
-.thirdone{
+.thirdone {
     height: 30vw;
     text-align: center;
     font-size: 3vw;
     padding-top: 2%;
-  }
-  .leftbox3 { 
-    float:left;  
-    width:40%; 
+}
+
+.leftbox3 {
+    float: left;
+    width: 40%;
     margin-left: 3%;
     margin-top: 1%;
     font-size: 3vw;
@@ -321,42 +360,50 @@ span{
     text-align: left;
     margin-right: 12%;
     margin-top: 1%;
-  } 
-.contactid{
+}
+
+.contactid {
     color: rgb(255, 255, 255);
     font-size: 1vw;
     font-weight: bold;
 }
-.projectmain{
+
+.projectmain {
     display: table;
 }
-.project{
+
+.project {
     height: 1vw;
     background-color: rgb(44, 185, 178);
     width: 50vw;
     text-align: center;
     display: table-cell;
-    
+
 }
-.project1{
+
+.project1 {
     display: table-cell;
     width: 50vw;
 }
-.maincontent{
+
+.maincontent {
     font-size: 3vw;
     font-weight: normal;
     margin-top: 13vw;
     text-align: center;
 }
-.secondarycontent{
+
+.secondarycontent {
     font-size: 1vw;
     text-align: center;
 }
-.pict{
+
+.pict {
     height: 25vw;
     margin-bottom: 3vw;
 }
-.check{
+
+.check {
     font-size: 350%;
     font-weight: bold;
 }
@@ -380,18 +427,21 @@ span{
     height: auto;
     padding: 1px;
 }
+
 .hovicon:after {
     pointer-events: none;
     position: absolute;
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    content:'';
+    content: '';
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
 }
-
+.text-primary{
+    height:10% ;
+}
 .hovicon.effect-4 {
     width: 7vw;
     height: 7vw;
@@ -403,6 +453,7 @@ span{
     -moz-transition: box-shadow 0.2s;
     transition: box-shadow 0.2s;
 }
+
 .hovicon.effect-4:after {
     top: -4px;
     left: -4px;
@@ -411,6 +462,7 @@ span{
     border: 4px dashed rgb(44, 185, 178);
 
 }
+
 .hovicon.effect-4.sub-b:hover {
     -webkit-transition: box-shadow 0.2s;
     -moz-transition: box-shadow 0.2s;
@@ -418,31 +470,38 @@ span{
     border: 4px dashed rgb(34, 41, 40);
 
 }
+
 .hovicon.effect-4.sub-b:hover:after {
     -webkit-animation: spinAround 9s linear infinite;
     -moz-animation: spinAround 9s linear infinite;
     animation: spinAround 9s linear infinite;
 }
+
 @-webkit-keyframes spinAround {
     from {
         -webkit-transform: rotate(0deg)
     }
+
     to {
         -webkit-transform: rotate(360deg);
     }
 }
+
 @-moz-keyframes spinAround {
     from {
         -moz-transform: rotate(0deg)
     }
+
     to {
         -moz-transform: rotate(360deg);
     }
 }
+
 @keyframes spinAround {
     from {
         transform: rotate(0deg)
     }
+
     to {
         transform: rotate(360deg);
     }
@@ -450,19 +509,21 @@ span{
 
 
 
-.left-box1{
-    width:50vw;
-    display: table-cell; 
-    color: rgb(0, 0, 0);
-    padding-bottom: 5vw;
-}
-.right-box1{
+.left-box1 {
+    width: 50vw;
     display: table-cell;
     color: rgb(0, 0, 0);
-    width:50vw; 
     padding-bottom: 5vw;
 }
-.pictu{
+
+.right-box1 {
+    display: table-cell;
+    color: rgb(0, 0, 0);
+    width: 50vw;
+    padding-bottom: 5vw;
+}
+
+.pictu {
     height: 20vw;
 }
 
