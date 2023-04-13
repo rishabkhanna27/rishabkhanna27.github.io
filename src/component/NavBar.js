@@ -13,7 +13,7 @@ export class NavBar extends Component{
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav>
             <NavLink className="navii let d-inline p-4 text-dark" to="/">About</NavLink>
-            <NavLink className="navii let d-inline p-4 text-dark" to="/Work">Work</NavLink>
+//             <NavLink className="navii let d-inline p-4 text-dark" to="/Work">Work</NavLink>
             </Nav>   
             </Navbar.Collapse>
             </Navbar>
