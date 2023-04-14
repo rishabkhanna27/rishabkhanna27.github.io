@@ -1,4 +1,4 @@
-**Projects Made By Rishab Khanna**
+**Projects Made By Rishab Khanna :**
 ### Covid-19-Tracker
 ### GrubEats
 ### Gratify
