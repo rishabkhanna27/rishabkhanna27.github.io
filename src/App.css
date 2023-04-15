@@ -18,7 +18,7 @@
 
 .parallax {
     background-image: url('./assets/images.png');
-    min-height: 40vw;
+    min-height: 50vw;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -154,10 +154,6 @@
     width: 15vw;
 }
 
-.start {
-    height: 40vw;
-}
-
 .car {
     padding-top: 5vw;
 }
@@ -247,13 +243,17 @@
 
 .left-box {
     float: left;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 40vw;
     width: 60%;
 }
 
 .right-box {
     float: right;
+    background-color: rgb(0, 0, 0);
     width: 40%;
-    height: 50vw;
+    height: 40vw;
 }
 
 .pic1 {
@@ -313,7 +313,7 @@
 }
 span{
     color: rgb(10, 149, 142);
-    font-weight: bolder;
+    font-weight: bold;
 }
 .lang{
     background-color: rgb(50, 114, 173);
@@ -332,8 +332,11 @@ span{
 }
 
 .about {
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    color: white;
     font-size: 4vw;
-    font-weight: bolder;
+    font-weight:bolder;
     text-align: center;
 }
 
@@ -361,7 +364,9 @@ span{
     margin-right: 12%;
     margin-top: 1%;
 }
-
+.start{
+    background-color: black;
+}
 .contactid {
     color: rgb(255, 255, 255);
     font-size: 1vw;
@@ -370,37 +375,37 @@ span{
 
 .projectmain {
     display: table;
+    width: 100%;
+    margin-top: 50px;
 }
-
 .project {
-    height: 1vw;
-    background-color: rgb(44, 185, 178);
+    padding-top: 10vw;
+    height: 50vw; 
+    background-color: rgb(0, 0, 0);
     width: 50vw;
     text-align: center;
     display: table-cell;
 
 }
-
 .project1 {
     display: table-cell;
+    background-color: rgb(0, 0, 0);
     width: 50vw;
 }
-
 .maincontent {
     font-size: 3vw;
     font-weight: normal;
-    margin-top: 13vw;
+    /* margin-top: 13vw; */
     text-align: center;
 }
-
 .secondarycontent {
     font-size: 1vw;
     text-align: center;
 }
 
 .pict {
-    height: 25vw;
-    margin-bottom: 3vw;
+    height: 30vw;
+    /* margin-bottom: 3vw; */
 }
 
 .check {
