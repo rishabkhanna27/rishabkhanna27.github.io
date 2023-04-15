@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css"
+import Globe from 'react-globe.gl';
 export default function App() {
 
   return (
