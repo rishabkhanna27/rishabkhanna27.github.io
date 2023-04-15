@@ -36,7 +36,7 @@ export default function App() {
         <div className="main"> Slide 1</div>
         </div>
         <div className="slide">
-            <div className="main"> Slide 2@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</div>
+            <div className="main"> Slide 2@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</div>
         </div>
         <div className="slide">Slide 3</div>
         <div className="slide">Slide 4</div>

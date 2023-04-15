@@ -6,7 +6,7 @@ import Experience from '../Experience/Experience';
 import { Contact } from '../Contact/Contact';
 import { Footer } from '../Footer/Footer';
 import { Intro } from '../Intro/Intro';
-import { Contribution } from '../Contribution/Contribution'
+import Contribution from '../Contribution/Contribution'
 import image from '../../assets/capture.svg';
 
 export class About extends Component{
@@ -29,8 +29,9 @@ export class About extends Component{
                 <Intro/>
                 <Experience/>
                 <Skills/>
-                <div className="parallax1"></div>
                 <Contribution/>
+                <div className="parallax1">
+                </div>
                 <Contact/>
                 <Footer/>
                 

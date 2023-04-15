@@ -27,7 +27,7 @@
 
 .parallax1 {
     background-image: url(./assets/Capture.PNG);
-    min-height: 30vw;
+    min-height: 60vw;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -341,7 +341,7 @@ span{
 }
 
 .thirdone {
-    height: 30vw;
+    /* height: 30vw; */
     text-align: center;
     font-size: 3vw;
     padding-top: 2%;
@@ -350,24 +350,28 @@ span{
 .leftbox3 {
     float: left;
     width: 40%;
-    margin-left: 3%;
-    margin-top: 1%;
+    margin-left: 2%;
+    margin-top: 2%;
     font-size: 3vw;
     text-align: right;
     font-weight: normal;
   } 
-  .rightbox3{ 
+.rightbox3{ 
     float:right; 
     width:30%; 
     font-size: 35%;
     text-align: left;
-    margin-right: 12%;
+    margin-right: 16%;
     margin-top: 1%;
 }
 .start{
     background-color: black;
 }
-
+.contact{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 30vw;
+}
 .contactid {
     color: rgb(255, 255, 255);
     font-size: 1vw;

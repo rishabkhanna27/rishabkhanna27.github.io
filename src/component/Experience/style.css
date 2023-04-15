@@ -1,5 +1,5 @@
 
-.upper-container{
+.upper-container-exp{
     background-color: rgb(0, 0, 0);
     color: rgb(225, 145, 25);
     padding-left: 10%;
@@ -10,21 +10,65 @@
     font-size: 5vw;
     font-weight: bold;
 }
-.lower-container{
+.lower-container-exp-left{
     background-color: rgb(0, 0, 0);
     padding-top: 2vw;
-    color: red;
-    font-size: 3vw;
-    font-weight: bolder;
-    padding-left: 11%;
-    height: 30vw;
-    width: 100%;
+    font-size: 2.5vw;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding-bottom: 30vw;
+    padding-left: 9%;
+    height: 3vw;
+    display: table-cell;
+    width: 50%;
     float:left; 
     clear: left;
+}
+.lower-container-exp-right{
+    background-color: rgb(0, 0, 0);
+    padding-top: 2vw;
+    font-size: 2.5vw;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding-bottom: 30vw;
+    padding-left: 11%;
+    height: 3vw;
+    display: table-cell;
+    width: 50%;
 }
 .upper-spam{
     font-weight: bolder;
     font-size: 25vw;
-    font-weight: bold;
     
 }
+.experience-container{
+    height: 80vw;
+}
+.earth-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .earth {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    margin: -100px 0 0 -100px;
+    background: url(path/to/earth-image.jpg) no-repeat center center;
+    background-size: cover;
+    border-radius: 50%;
+    animation: rotate 10s linear infinite;
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
