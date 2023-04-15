@@ -245,7 +245,7 @@
     float: left;
     background-color: rgb(0, 0, 0);
     color: white;
-    height: 40vw;
+    height: 30vw;
     width: 60%;
 }
 
@@ -253,7 +253,7 @@
     float: right;
     background-color: rgb(0, 0, 0);
     width: 40%;
-    height: 40vw;
+    height: 30vw;
 }
 
 .pic1 {
@@ -367,6 +367,7 @@ span{
 .start{
     background-color: black;
 }
+
 .contactid {
     color: rgb(255, 255, 255);
     font-size: 1vw;
@@ -574,3 +575,4 @@ span{
 .btview{
     text-align: center;
   }
+

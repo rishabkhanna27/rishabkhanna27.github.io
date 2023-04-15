@@ -22,8 +22,6 @@ export class Intro extends Component{
                     </div>
                     </div>
                 </div>
-                
-                
             </div>
         );
     }
