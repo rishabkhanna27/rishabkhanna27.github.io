@@ -30,7 +30,7 @@
     
 }
 .cont-container{
-    height: 60vw;
+    height: 75vw;
     background-color: black;
 }
 .linkbtn1{
@@ -51,7 +51,7 @@
     font-weight: bolder;
     display: table-cell;
     width: 50%;
-    height: 30vw;
+    height: 40vw;
     border: 0;
 
 }
@@ -59,7 +59,7 @@
 .lower-container-cont {
     width: 100%;
     background-color: black;
-    /* height: 30vw; */
+    /* height: 900vw; */
     text-align: center;
     font-size: 3vw;
     padding-top: 2%;

@@ -1,46 +1,57 @@
-import React, { useRef } from "react";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import "./styles.css";
+import React from 'react';
+import { Carousel } from 'react-bootstrap';
+import "./Style.css"
+import frontend from "../../assets/frontend.svg";
+import backend from "../../assets/backend.svg";
+import database from "../../assets/database.svg";
+import softwares from "../../assets/softwares.svg";
 
-export default function App() {
-  const sliderRef = useRef(null);
-
-  const handleScroll = (e) => {
-    const delta = Math.sign(e.deltaY);
-    if (delta > 0) {
-      sliderRef.current.slickNext();
-    } else {
-      sliderRef.current.slickPrev();
-    }
-  };
-
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 3000,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    draggable: true,
-    // swipeThreshold: 10
-  };
-
+const App = () => {
   return (
-    <div
-      className="slider-container"
-      onWheel={(e) => handleScroll(e)}
-    >
-      <Slider {...settings} ref={sliderRef}>
-        <div className="slide">
-        <div className="main"> Slide 1</div>
-        </div>
-        <div className="slide">
-            <div className="main"> Slide 2@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@</div>
-        </div>
-        <div className="slide">Slide 3</div>
-        <div className="slide">Slide 4</div>
-      </Slider>
-    </div>
+    <Carousel className='skill-container'>
+        <Carousel.Item>
+        <div  className="intro2"><img className="picture" src={frontend} alt="imageing"></img></div>
+          <div>
+            UI TECHNOLOGIES
+          </div>
+        <Carousel.Caption>
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </Carousel.Caption>
+        </Carousel.Item>  
+        <Carousel.Item>
+        <div  className="intro2"><img className="picture" src={backend} alt="imageing"></img></div>
+          <div>
+            UI TECHNOLOGIES
+          </div>
+        <Carousel.Caption>
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </Carousel.Caption>
+        </Carousel.Item>  
+        <Carousel.Item>
+        <div  className="intro2"><img className="picture" src={database} alt="imageing"></img></div>
+          <div>
+            UI TECHNOLOGIES
+          </div>
+        <Carousel.Caption>
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </Carousel.Caption>
+        </Carousel.Item>   
+        
+        <Carousel.Item>
+        <div  className="intro2"><img className="picture" src={softwares } alt="imageing"></img></div>
+          <div>
+            UI TECHNOLOGIES
+          </div>
+        <Carousel.Caption>
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </Carousel.Caption>
+        </Carousel.Item>    
+    </Carousel>
   );
-}
+};
+
+export default App;
