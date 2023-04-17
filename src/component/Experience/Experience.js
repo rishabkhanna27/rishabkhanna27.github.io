@@ -11,7 +11,7 @@ export default function App() {
       </div>
       <div className="upper-container-exp-right">
       YEARS OF EXPERIENCE <br/>
-      IN CREATING <br/><span>SCALABLE,</span> <br/><span>ROBUST</span><br/> <span>AND INTERACTIVE</span> APPLICATIONS
+      IN CREATING <br/><span>SCALABLE</span> <br/><span>ROBUST</span><br/> <span>INTERACTIVE</span> <br/>APPLICATIONS
       </div>
     </div>
   );

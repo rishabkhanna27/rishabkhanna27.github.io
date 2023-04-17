@@ -14,7 +14,7 @@ export default function App() {
       <div className="lower-container-cont">
         <div className="lower-container-left">
           CONTRIBUTIONS IN<br/>
-          <span>PROFESSIONAL,</span><br/><span>AND PERSONAL</span><br/>PROJECTS
+          <span>PROFESSIONAL &</span><br/><span>PERSONAL</span><br/>PROJECTS
         </div>
         <div className="lower-container-right">
           VISIT MY GIT<br/><br/>

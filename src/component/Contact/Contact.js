@@ -1,5 +1,4 @@
 import React,{Component} from 'react';
-import {ContactForm} from './ContactForm';
 import '../../App.css';
 
 export class Contact extends Component{
@@ -16,9 +15,6 @@ export class Contact extends Component{
                         <span> Intresting </span> <br></br>
                         Ideas. 
                        </div>
-                       <div className="rightbox3">
-                       <ContactForm/>
-                    </div>
                     </div>
             </div>
         );
