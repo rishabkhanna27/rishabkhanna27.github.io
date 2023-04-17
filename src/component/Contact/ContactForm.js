@@ -45,13 +45,13 @@ export class ContactForm extends Component {
         <div>
           <Form onSubmit={this.handleSubmit.bind(this)}>
             <FormGroup controlid="formBasicEmail">
-              <Label className="text-muted">Email address</Label>
+              <Label className="text-muted form-label">Email address</Label>
               
               <Input
                 type="email"
                 name="email"
                 value={this.state.email}
-                className="text-primary"
+                className="form-control"
                 onChange={this.handleChange.bind(this, 'email')}
                 placeholder="Enter email"
               />

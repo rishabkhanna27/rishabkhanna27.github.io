@@ -24,8 +24,10 @@
     "react-slick": "^0.29.0",
     "react-table": "^7.6.3",
     "react-table-6": "^6.11.0",
+    "react-tsparticles": "^2.9.3",
     "reactstrap": "^8.5.1",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "tsparticles": "^2.9.3"
   },
   "scripts": {
     "predeploy": "npm run build",

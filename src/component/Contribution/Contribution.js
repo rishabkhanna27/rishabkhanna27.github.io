@@ -17,7 +17,7 @@ export default function App() {
           <span>PROFESSIONAL,</span><br/><span>AND PERSONAL</span><br/>PROJECTS
         </div>
         <div className="lower-container-right">
-          VISIT MY GIT <br/><br/>
+          VISIT MY GIT<br/><br/>
           <a className="linkbtn1" href="https://github.com/rishabkhanna27"> <FontAwesomeIcon icon={faGithub } size = '4x' />{' '}</a>
           <a className="linkbtn1" href="https://gitlab.com/rishabkhanna27"> <FontAwesomeIcon icon={faGitlab } size = '4x' />{' '}</a>
         </div>

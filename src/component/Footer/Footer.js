@@ -25,22 +25,22 @@ export class Footer extends Component{
             <ul className="icon list-unstyled list-inline text-center text-dark">
               <li className=" logo list-inline-item ">
                 <div><a className="linkbtn" href="https://www.facebook.com/rishabkhanna27">
-                <FontAwesomeIcon icon={faFacebook } size = '3x' />{' '}</a>
+                <FontAwesomeIcon className='icon' icon={faFacebook }/>{' '}</a>
                 </div>
               </li>
               <li className="logo list-inline-item">
                 <div><a className="linkbtn" href="https://www.linkedin.com/in/rishabkhanna27/">
-                <FontAwesomeIcon icon={faLinkedinIn } size = '3x'/>{' '}</a>
+                <FontAwesomeIcon className='icon' icon={faLinkedinIn } />{' '}</a>
                 </div>
               </li>
               <li className="logo list-inline-item">
                 <div><a className="linkbtn" href="https://github.com/rishabkhanna27">
-                <FontAwesomeIcon icon={faGithub } size = '3x' />{' '}</a>
+                <FontAwesomeIcon className='icon' icon={faGithub }  />{' '}</a>
                 </div>
               </li>
               <li className="logo list-inline-item">
                 <div><a className="linkbtn" href="https://www.instagram.com/rishabkhanna.27/">
-                <FontAwesomeIcon icon={faInstagram } size = '3x' />{' '}</a>
+                <FontAwesomeIcon className='icon' icon={faInstagram }  />{' '}</a>
                 </div>
               </li>
             </ul>

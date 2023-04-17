@@ -8,49 +8,61 @@ import softwares from "../../assets/softwares.svg";
 
 const App = () => {
   return (
-    <Carousel className='skill-container'>
+    <div className='skill-container'>
+      <div className='skill-intro'>TECHNO STACK</div>
+    <Carousel>
         <Carousel.Item>
-        <div  className="intro2"><img className="picture" src={frontend} alt="imageing"></img></div>
-          <div>
-            UI TECHNOLOGIES
+        <div className='slide-heading' id='UI'>
+            <span>UI</span> TECHNOLOGIES
           </div>
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
+        <div className="slide-intro"><img className="picture" src={frontend} alt="imageing"></img></div>
+        <div className='slide-intro-right text-capitalize mt-5'>
+          <span className='badge badge-pill badge-success'>HTML</span>
+          <span className='badge badge-pill badge-success ml-3 mr-3'>CSS</span>
+          <span className='badge badge-pill badge-success mr-3'>BOOTSTRAP 4</span><br/><br/>
+          <span className='badge badge-pill badge-success mr-3'>JAVASCRIPT</span>
+          <span className='badge badge-pill badge-success mr-3'>REACT JS</span>
+        </div>
         </Carousel.Item>  
         <Carousel.Item>
-        <div  className="intro2"><img className="picture" src={backend} alt="imageing"></img></div>
-          <div>
-            UI TECHNOLOGIES
+        <div className='slide-heading' id='BT'>
+            <span>BACKEND</span> TECHNOLOGIES
           </div>
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
+        <div  className="slide-intro"><img className="picture" src={backend} alt="imageing"></img></div>
+        <div className='slide-intro-right text-capitalize mt-5'>
+          <span className='badge badge-pill badge-success'>NODE JS</span>
+          <span className='badge badge-pill badge-success ml-3 mr-3'>EXPRESS</span>
+          <span className='badge badge-pill badge-success mr-3'>JAVA</span>
+        </div>
         </Carousel.Item>  
         <Carousel.Item>
-        <div  className="intro2"><img className="picture" src={database} alt="imageing"></img></div>
-          <div>
-            UI TECHNOLOGIES
+          <div className='slide-heading' id='DB'>
+            <span>DATABASE</span> TECHNOLOGIES
           </div>
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
+        <div  className="slide-intro"><img className="picture" src={database} alt="imageing"></img></div>
+        <div className='slide-intro-right text-capitalize mt-5'>
+          <span className='badge badge-pill badge-success'>MONGO</span>
+          <span className='badge badge-pill badge-success ml-3 mr-3'>MYSQL</span>
+          <span className='badge badge-pill badge-success mr-3'>FIREBASE</span><br/><br/>
+          <span className='badge badge-pill badge-success mr-3'>ORACLE</span>
+        </div>
         </Carousel.Item>   
         
         <Carousel.Item>
-        <div  className="intro2"><img className="picture" src={softwares } alt="imageing"></img></div>
-          <div>
-            UI TECHNOLOGIES
+        <div className='slide-heading' id='AD'>
+          <span>ADDITIONAL</span> TECHNOLOGIES
           </div>
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
+        <div  className="slide-intro"><img className="picture" src={softwares } alt="imageing"></img></div>
+        <div className='slide-intro-right text-capitalize mt-5'>
+          <span className='badge badge-pill badge-success'>AWS</span>
+          <span className='badge badge-pill badge-success ml-3 mr-3'>GCP</span>
+          <span className='badge badge-pill badge-success mr-3'>DOCKER</span><br/><br/>
+          <span className='badge badge-pill badge-success mr-3'>IOT</span>
+          <span className='badge badge-pill badge-success mr-3'>GIT</span>
+        </div>
         </Carousel.Item>    
     </Carousel>
+    </div>
   );
 };
 

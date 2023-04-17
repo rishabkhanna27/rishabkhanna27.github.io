@@ -13,12 +13,11 @@ export class Intro extends Component{
 
                     <div className="left-box">
                     <div className="aboutinfo">
-                        Voluptates modi dignissimos
-                        quibusdam, veritatis iste adipisci recusandae accusamus repellendus beatae laudantium, minus
-                        saepe. Dicta omnis similique incidunt corporis ipsa veniam cumque.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat ducimus, tempore reprehenderit
-                        vero quis distinctio aut, ex debitis accusamus maiores inventore obcaecati facilis blanditiis,
-                        sapiente ullam cumque possimus consequatur autem!
+                        Welcome to my developer portfolio! With years of experience in programming and technology, 
+                        I'm a dedicated and passionate developer specializing in creating high-quality software 
+                        solutions for various industries. I have expertise in various programming languages and technologies, 
+                        and I'm always striving to stay up-to-date with the latest trends and innovations. 
+                        My goal is to create innovative, efficient solutions that meet the unique needs of each client.
                     </div>
                     </div>
                 </div>

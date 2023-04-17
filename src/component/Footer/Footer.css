@@ -7,7 +7,7 @@ section {
   background: #151515;
   height: 50vh;
   text-align: center;
-  font-size: 22px;
+  font-size: 2vw;
   font-weight: 700;
   text-decoration: underline;
 }
@@ -18,8 +18,8 @@ section {
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
-	font: bold 16px sans-serif;
-	padding: 50px 50px 0px 50px;
+	font: bold 1.2vw sans-serif;
+	padding: 4vw 4vw 1vw 4vw;
 }
 
 .footer-distributed .footer-left,
@@ -29,12 +29,12 @@ section {
 }
 
 .footer-distributed .footer-left{
-	width: 40%;
+	width: 35vw;
 }
 
 .footer-distributed h3{
 	color:  #ffffff;
-	font: normal 36px 'Open Sans', cursive;
+	font: normal 3.1vw 'Open Sans', cursive;
 	margin: 0;
 }
 
@@ -68,11 +68,13 @@ section {
 }
 .linkbtn{
 	color: rgb(17, 83, 80);
-
+}
+.icon{
+	font-size: 4vw;
 }
 .contain{
 	margin-right: 70%;
-	font-size: 150%;
+	font-size: 120%;
 }
 .linkbtn:hover{
 	color: rgb(17, 145, 138);
