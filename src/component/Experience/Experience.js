@@ -6,7 +6,7 @@ export default function App() {
     <div className="experience-container">
       <div className="upper-container-exp-left">
         <div className="upper-spam">
-          2+
+          3+
         </div>
       </div>
       <div className="upper-container-exp-right">

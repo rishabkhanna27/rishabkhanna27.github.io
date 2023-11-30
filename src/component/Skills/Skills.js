@@ -43,7 +43,7 @@ const App = () => {
         <div className='slide-intro-right text-capitalize mt-5'>
           <span className='badge badge-pill badge-success'>MONGO</span>
           <span className='badge badge-pill badge-success ml-3 mr-3'>MYSQL</span>
-          <span className='badge badge-pill badge-success mr-3'>FIREBASE</span><br/><br/>
+          <span className='badge badge-pill badge-success mr-3'>CLOUD FIRESTORE</span><br/><br/>
           <span className='badge badge-pill badge-success mr-3'>ORACLE</span>
         </div>
         </Carousel.Item>   
@@ -58,6 +58,7 @@ const App = () => {
           <span className='badge badge-pill badge-success ml-3 mr-3'>GCP</span>
           <span className='badge badge-pill badge-success mr-3'>DOCKER</span><br/><br/>
           <span className='badge badge-pill badge-success mr-3'>IOT</span>
+          <span className='badge badge-pill badge-success mr-3'>FIREBASE</span>
           <span className='badge badge-pill badge-success mr-3'>GIT</span>
         </div>
         </Carousel.Item>    
